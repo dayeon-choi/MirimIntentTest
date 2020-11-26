@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.check_4:// /
                     intent.putExtra("arithmetic","/");
             }
-
+            startActivity(intent);
         }
     };
 }
