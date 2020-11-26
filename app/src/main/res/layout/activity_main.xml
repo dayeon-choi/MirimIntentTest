@@ -26,7 +26,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!--연산 선택-->
     <RadioGroup
+        android:id="@+id/arithmetic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -51,5 +54,10 @@
             android:text="나누기(/)"
             />
     </RadioGroup>
-
+    <Button
+        android:id="@+id/go_computation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산하기"
+        />
 </LinearLayout>
