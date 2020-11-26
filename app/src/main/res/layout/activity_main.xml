@@ -34,21 +34,25 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <RadioButton
+            android:id="@+id/check_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="더하기(+)"
             />
         <RadioButton
+            android:id="@+id/check_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="빼기(-)"
             />
         <RadioButton
+            android:id="@+id/check_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="곱하기(x)"
             />
         <RadioButton
+            android:id="@+id/check_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="나누기(/)"
